@@ -32,8 +32,8 @@ class Users extends Component {
                     <UserItem key={user.id} user={user}/>
                 ))}
             </div>
-        )
-    }
+        );
+    };
 }
 
 const userStyle = {
